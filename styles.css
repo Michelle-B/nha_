@@ -1,0 +1,111 @@
+/*Navgatie*/
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    background: rgb(96, 50, 50);
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    font-size: 25px;
+    font-family: bad script;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: hsl(36, 83%, 43%);
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  
+    
+    /*body volledig scherm*/
+    body {
+      margin: 0px;
+    }
+
+        /* Page Content */
+        .content {
+            padding: 20px;
+        }
+
+            
+    /* Header/Logo and Title */
+    .header {
+        padding: 0px;
+        text-align: unset;
+        color: white;
+        font-size: 17px;
+        font-family: cursive;
+        background: black;
+      }
+    
+    
+    /*Header Image*/
+    .header-image {
+        background-image: url("img/fish.avif");
+        padding: 25px;
+        height: 350px;
+        background-position: 25% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0px solid blue;
+    } 
+  
+
+  /*Main*/
+    .main-content{
+      text-align: center;
+      font-family: bad script;
+      font-size: 20px;
+      color: white;
+  }
+
+  
+   p {
+    text-align: center;
+    font-family: baloo tammudu2;
+    font-size: 20px;
+    color: white;
+ }
+
+
+  .main-content {
+  background-color: black;
+  border: 20px solid black;
+  }
+
+
+      /*Footer*/
+      .footer {
+        padding: 20px;
+        font-family: cursive;
+        font-size: 20px;
+        text-align: center;
+        background: hsl(36, 95%, 57%); 
+    }
